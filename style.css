@@ -1,5 +1,5 @@
 body {
-    font-family: "roboto", sans-serif;
+    font-family: 'roboto', sans-serif;
     margin: 0;
 }
 
@@ -48,8 +48,11 @@ a, .home h1 {
 
 button {
     background-color: #3883F6;
-    border-radius: 20%;
+    border-radius: 8px;
     color: white;
+    padding: 8px;
+    width: 110px;
     border: none;
+    font-weight: bold;
 }
 
