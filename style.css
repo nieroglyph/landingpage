@@ -11,10 +11,15 @@ body {
 .header, .home {
     background-color: #141414;
     color: #FFE3D8;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: space-between;
     padding: 0 300px;
     flex-shrink: 0;
+}
+.header strong, #hero2 {
+    color: #b9392be7;
 }
 .links {
     display: flex;
@@ -44,6 +49,10 @@ a, .home h1 {
 }
 .home h1 {
     font-size: 48px;
+    font-family: 'Brush Script MT', cursive;
+}
+h1 em {
+    color: #FFE3D8;
 }
 
 button {
@@ -90,7 +99,7 @@ button {
     height: 380px;
 }
 .quote span {
-    font-family: cursive;
+    font-family: 'Garamond', cursive;
     font-size: 36px;
     color: white;
     font-style: italic;
