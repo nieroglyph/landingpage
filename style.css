@@ -49,7 +49,7 @@ a, .home h1 {
 }
 .home h1 {
     font-size: 48px;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 h1 em {
     color: #FFE3D8;
@@ -99,7 +99,7 @@ button {
     height: 380px;
 }
 .quote span {
-    font-family: 'Garamond', cursive;
+    font-family: Times, serif;
     font-size: 36px;
     color: white;
     font-style: italic;
