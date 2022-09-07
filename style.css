@@ -9,8 +9,8 @@ body {
 }
 
 .header, .home {
-    background-color: #1F2937;
-    color: #e8901e;
+    background-color: #141414;
+    color: #FFE3D8;
     display: flex;
     justify-content: space-between;
     padding: 0 300px;
@@ -24,7 +24,7 @@ body {
 }
 a, .home h1 {
     text-decoration: none;
-    color: white;
+    color: #EEEEEE;
 }
 
 .home img {
@@ -47,9 +47,8 @@ a, .home h1 {
 }
 
 button {
-    background-color: #3883F6;
+    background-color: #FFE3D8;
     border-radius: 8px;
-    color: white;
     padding: 8px;
     width: 110px;
     border: none;
@@ -57,8 +56,9 @@ button {
 }
 
 .main {
-    margin-top: 20px;
-    margin-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-color: #feeded;
 }
 .main img {
     width: 200px;
@@ -66,11 +66,10 @@ button {
 }
 .main h1 {
     font-size: 36;
-    color: #1F2937;
     text-align: center;
 }
 .image img {
-    border: 4px solid #3883F6;
+    border: 4px solid black;
     border-radius: 10%;
 }
 .images {
@@ -84,21 +83,23 @@ button {
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #9d3024b9;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400px;
+    height: 380px;
 }
 .quote span {
+    font-family: cursive;
     font-size: 36px;
-    color: #1F2937;
+    color: white;
     font-style: italic;
     width: 1000px;
     margin-top: 120px;
 }
 .quote p {
-    font-weight: bold;
+    font-style: italic;
+    color: white;
     font-size: 24px;
     margin-left: 600px;
 }
@@ -110,15 +111,16 @@ button {
     height: 300px;
 }
 .banner {
-    background-color: #3883F6;
+    background-color: #FFE3D8;
     display: flex;
     width: 900px;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    border: 2px solid black;
 }
 .banner button {
-    border: 2px solid white;
+    border: 2px solid black;
     height: fit-content;
 }
 .action {
@@ -127,7 +129,6 @@ button {
     justify-content: space-between;
     align-items: center;
     width: 800px;
-    color: white;
 }
 .action h3{
     font-size: 24px;
@@ -138,7 +139,7 @@ button {
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #141414;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
